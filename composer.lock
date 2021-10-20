@@ -1,0 +1,118 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "fc7258f60664673281a569f6f772e851",
+    "packages": [
+        {
+            "name": "tdtrung17693/php-chalk",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tdtrung17693/php-chalk.git",
+                "reference": "4046a29a1543263fc74ecf4f1ef31cd8a20fb2c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tdtrung17693/php-chalk/zipball/4046a29a1543263fc74ecf4f1ef31cd8a20fb2c6",
+                "reference": "4046a29a1543263fc74ecf4f1ef31cd8a20fb2c6",
+                "shasum": ""
+            },
+            "require": {
+                "tdtrung17693/php-os-recognizer": "^1.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TdTrung\\Chalk\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Tran Dinh Trung",
+                    "email": "trandinhtrung176@gmail.com"
+                }
+            ],
+            "description": "Just another PHP terminal string styling library",
+            "keywords": [
+                "ansi-color",
+                "cli",
+                "cli-color",
+                "color",
+                "terminal-color"
+            ],
+            "support": {
+                "issues": "https://github.com/tdtrung17693/php-chalk/issues",
+                "source": "https://github.com/tdtrung17693/php-chalk/tree/master"
+            },
+            "time": "2019-06-19T22:35:09+00:00"
+        },
+        {
+            "name": "tdtrung17693/php-os-recognizer",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tdtrung17693/php-os-recognizer.git",
+                "reference": "9f7c9c8dd9973bb1535cab38bdac98a26c01c108"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tdtrung17693/php-os-recognizer/zipball/9f7c9c8dd9973bb1535cab38bdac98a26c01c108",
+                "reference": "9f7c9c8dd9973bb1535cab38bdac98a26c01c108",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TdTrung\\OSRecognizer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Tran Dinh Trung",
+                    "email": "trandinhtrung176@gmail.com"
+                }
+            ],
+            "description": "OS recognizer for PHP",
+            "keywords": [
+                "detect",
+                "operating system",
+                "os",
+                "recognizer"
+            ],
+            "support": {
+                "issues": "https://github.com/tdtrung17693/php-os-recognizer/issues",
+                "source": "https://github.com/tdtrung17693/php-os-recognizer/tree/v1.0.0"
+            },
+            "time": "2019-06-11T13:37:26+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "tdtrung17693/php-chalk": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

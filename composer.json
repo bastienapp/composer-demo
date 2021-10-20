@@ -1,0 +1,13 @@
+{
+    "name": "wcs/composer-demo",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Wcs\\ComposerDemo\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "tdtrung17693/php-chalk": "dev-master"
+    }
+}
